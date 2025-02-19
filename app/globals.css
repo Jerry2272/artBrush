@@ -1,21 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+p , a , h5{
+  font-family: "Nunito Sans", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+/* navbar section  */
+.navbar a {
+  font-family: "Nunito Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(96, 96, 96, 1);
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+.navbar a:hover {
+  color: rgba(0, 0, 0, 1);
+  transition: 0.3s;
+}
+/* navbar ending  */
+
+
+/* hero section mobile view  */
+.hero .heroHeadline h1 , .art .textItems h1 , .pastExi h1 , .featuredArt h1{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 45.42px;
+  letter-spacing: 0%;
   }
+  .hero .heroHeadline p ,  .art .textItems .para ,  .pastExi h5{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.74px;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+  .collection .number{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 25.42px;
+    letter-spacing: 0%;
+text-align: right;
+  }
+  .collection .art{
+font-weight: 500;
+font-size: 18px;
+line-height: 32.74px;
+letter-spacing: 0%;
+text-align: right;
+color: rgba(62, 62, 62, 1);
+  }
+/* hero section mobile view  */
+
+/* artisian section   */
+.art .textItems .h5{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20.74px;
+  letter-spacing: 0%;
+  }
+/* artisian section   */
+
+
+/* upcoming event   */
+.upcoming-event {
+  background: url('@assets/assets/upComingE.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upcoming-event h3{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 43.65px;
+  letter-spacing: 0%;
+  }
+/* upcoming event   */
+
+@media (min-width: 992px) {
+  /* hero section starting */
+.hero .heroHeadline h1 , .pastExi h1 , .featuredArt h1{
+  font-size: 60px;
+  line-height: 75.42px;
+  letter-spacing: 0%;
+  }
+  .hero .heroHeadline p{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.74px;
+  letter-spacing: 0%;
+  text-align: right;
+  }
+
+  .collection .number{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 75.42px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .collection .art{
+font-weight: 500;
+font-size: 24px;
+line-height: 32.74px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(62, 62, 62, 1);
+  }
+/* hero section ending */
+
+
+/* artisian section  */
+.art .textItems h1{
+font-weight: 700;
+font-size: 60px;
+line-height: 75.42px;
+letter-spacing: 0%;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.art .textItems .h5 , .pastExi h5 , .featuredArt h5{
+font-weight: 500;
+font-size: 24px;
+line-height: 32.74px;
+letter-spacing: 0%;
+}
+
+.art .textItems .para{
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+}
+/* artisian section ending */
+
+
+/* upcoming event  */
+.upcoming-event h3{
+font-weight: 600;
+font-size: 32px;
+line-height: 43.65px;
+letter-spacing: 0%;
+}
+
+/* upcoming event  */
+}
+
+
+
+@media  (max-width: 768px) {
+  .navbar .mobileView{
+    position: absolute;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    top: 50px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    transition: all 0.3s ease-in;
+    z-index: 999;
+  }
+  .mobileViewLogo{
+    width: 100%;
+    height: auto;
+  }
 }
