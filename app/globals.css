@@ -88,7 +88,7 @@ color: rgba(62, 62, 62, 1);
 
 /* upcoming event   */
 .upcoming-event {
-  background: url('@assets/assets/upComingE.jpg');
+  background: url('../public/assets/upComingE.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
