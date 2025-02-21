@@ -12,9 +12,12 @@ const Navbar = () => {
       <a href="#">
      <Image src={Logo} width={135} alt="brushArt Logo"  className='mobileViewLogo' />
       </a>
-      < ul className='lg:flex gap-10 m-0 p-0 justify-end items-center hidden' >
+      < ul className='md:flex gap-10 m-0 p-0 justify-end items-center hidden ml-auto' >
         <li className='list-none'>
           <a href="/"
+          style={
+            {border:  '2px solid rgba(26, 26, 26, 1)', borderRadius: '8px'}
+          }
             className='font-normal text-'>
             Home
           </a>

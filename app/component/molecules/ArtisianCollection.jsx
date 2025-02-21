@@ -4,7 +4,7 @@ import Img3 from '@assets/assets/artisiansCollection.png'
 
 export const ArtisianCollection = () => {
   return (
-    <section className='lg:my-[40px] lg:p-[50px] p-[20px] flex lg:flex-row flex-col justify-between items-center gap-[40px] art'>
+    <section className='lg:my-[40px] lg:p-[50px] p-[20px] grid md:grid-cols-2 gap-[40px] art'>
         <div className='textItems'>
             <h1>Artisan’s Collections</h1>
             <p className='h5'>Handcrafted masterpieces from skilled artisian’s</p>

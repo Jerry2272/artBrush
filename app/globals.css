@@ -106,8 +106,8 @@ color: rgba(62, 62, 62, 1);
 
 @media (min-width: 992px) {
   /* hero section starting */
-.hero .heroHeadline h1 , .pastExi h1 , .featuredArt h1{
-  font-size: 60px;
+.hero .heroHeadline h1 , .pastExi h1 , .featuredArt h1{ 
+  font-size: 55px;
   line-height: 75.42px;
   letter-spacing: 0%;
   }
@@ -140,7 +140,7 @@ color: rgba(62, 62, 62, 1);
 /* artisian section  */
 .art .textItems h1{
 font-weight: 700;
-font-size: 60px;
+font-size: 50px;
 line-height: 75.42px;
 letter-spacing: 0%;
 }
@@ -164,7 +164,7 @@ letter-spacing: 0%;
 /* upcoming event  */
 .upcoming-event h3{
 font-weight: 600;
-font-size: 32px;
+font-size: 30px;
 line-height: 43.65px;
 letter-spacing: 0%;
 }
