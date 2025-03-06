@@ -6,7 +6,7 @@ import digiArt3 from '@assets/assets/digiArt2.png'
 
 export const PastEx = () => {
   return (
-    <section className='flex justify-center items-center flex-col pastExi my-[20px] p-[10px]'>
+    <section className='flex justify-center items-center flex-col pastExi my-[10px] p-[10px] md:mx-[129px] md:mb-[2em] '>
        <h1 className=''>Past Exhibition Highlights</h1> 
        <h5 className='pb-10'>Explore past exhibition. Relieve the masterpieces.</h5>
        <div className="row flex gap-[20px] lg:flex-row flex-col" >
@@ -23,10 +23,10 @@ export const PastEx = () => {
                 }}
                 >
                    <span className='flex justify-between'>
-                   <h5>Digital Art Forms</h5>
-                   <h5 className=''>N150,000</h5>
+                   <h5 style={{color: 'rgba(26, 26, 26, 1)',  fontWeight: 'bold'}}>Digital Art Forms</h5>
+                   <h5 className='' style={{ fontWeight: 'bold'}}>N150,000</h5>
                    </span>
-                    <small>Ruben Abbey</small>
+                    <small className='md:text-[16px]'>Ruben Abbey</small>
                 </div>
             </div>
         </div>
@@ -43,10 +43,10 @@ export const PastEx = () => {
                 }}
                 >
                    <span className='flex justify-between'>
-                   <h5>Digital Art Forms</h5>
-                   <h5 className=''>N150,000</h5>
+                   <h5 style={{ fontWeight : 'bold'}}>Digital Art Forms</h5>
+                   <h5 className='' style={{ fontWeight: 'bold'}}>N150,000</h5>
                    </span>
-                    <small>Ruben Abbey</small>
+                    <small className='md:text-[16px]'>Ruben Abbey</small>
                 </div>
             </div>
             <div className='relative'>
@@ -61,10 +61,10 @@ export const PastEx = () => {
                 }}
                 >
                    <span className='flex justify-between'>
-                   <h5>Digital Art Forms</h5>
-                   <h5 className=''>N150,000</h5>
+                   <h5 style={{ fontWeight: 'bold'}}>Digital Art Forms</h5>
+                   <h5 className='' style={{ fontWeight: 'bold'}}>N150,000</h5>
                    </span>
-                    <small>Ruben Abbey</small>
+                    <small className='md:text-[16px]'>Ruben Abbey</small>
                 </div>
             </div>
         </div>

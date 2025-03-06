@@ -4,14 +4,15 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import React from 'react'
 import Angle from '@assets/assets/arrow-angle.png'
-import Slide1 from '@assets/assets/heroGallery.png'
-import Slide2 from '@assets/assets/artSlide2.png'
-import Img2 from '@assets/assets/heroGallery1.png'
-import Img3 from '@assets/assets/heroGallery2.png'
+import Slide1 from '@assets/assets/artSlider1.png'
+import Slide2 from '@assets/assets/artSlider2.png'
+import Slide3 from '@assets/assets/artSlide2.png'
+import Img2 from '@assets/assets/hero-gallery1.png'
+import Img3 from '@assets/assets/hero-gallery2.png'
 import Arrow from '@assets/assets/arrow.png'
 
 
-const images = [Slide1 , Slide2 , Slide1];
+const images = [Slide1 , Slide2 , Slide3];
 
 
 export const Hero = () => {
@@ -28,8 +29,8 @@ return() => clearInterval(interval)
 ;
   return (
     <>
-    <section className="hero lg:p-14 pb-0 mb-0 p-8">
-      <div className="heroHeadline lg:flex justify-between items-center">
+    < section className="hero md:p-[4em] pb-0 mb-0 p-8 md:mx-[30px] ">
+      <div className="heroHeadline lg:flex justify-between items-center md:mb-[75px]">
         <h1>Journey Through Art. </h1>
         <p className='pt-10 lg:pt-0'>
           Explore the unique creations of our talented <br className='hidden lg:block' />
@@ -70,11 +71,11 @@ return() => clearInterval(interval)
                     borderRadius: '12.11px',
                 }}
                 >
-                  <h1 className="bg-white text-[rgba(26, 26, 26, 1)] px-3 py-2 rounded-lg  text-[24px] w-[160px] font-[700]">Collection</h1>
-              <h5 className="font-bold text-white mt-auto">Handcrafted Masterpieces</h5>
-              <p className="text-white text-sm mt-2">
-                Amet quis leo id faucibus auctor penatibus diam pellentesque. Convallis nisl et
-                euismod sit lectus urna purus iaculis. Nibh facilisis auctor amet ac.
+                  <h1 className=" butt">Collection</h1>
+              <h5 className="font-bold text-white mt-auto md:text-[22.89px]">Handcrafted Masterpieces</h5>
+              <p className="text-white md:text-[17px] mt-2">
+                Amet quis leo id faucibus auctor penatibus diam pellentesque. <br /> Convallis nisl et
+                euismod sit lectus urna purus iaculis. Nibh facilisis <br /> auctor amet ac.
               </p>
                 </div>
         </div>
@@ -93,11 +94,11 @@ return() => clearInterval(interval)
                     height: '100%'
                 }}
                 >
-                  <h1 className="bg-white text-[rgba(26, 26, 26, 1)] px-3 py-2 rounded-lg  text-[24px] w-[160px] font-[700]">Gallery</h1>
-              <h5 className="font-bold text-white mt-auto">Handcrafted Masterpieces</h5>
+                  <h1 className="butt">Gallery</h1>
+              <h5  className="font-bold text-white mt-auto md:text-[22.89px]">Handcrafted Masterpieces</h5>
               <div className='flex justify-between'>
-            <p className="text-white text-sm mt-2">
-            Amet quis leo id faucibus auctor penatibus diam <br /> pellentesque. Convallis nisl et euismod sit lectus 
+            <p className="text-white md:text-[17px] mt-2">
+            Amet quis leo id faucibus auctor penatibus diam <br className='hidden md:block' /> pellentesque. Convallis nisl et euismod sit lectus 
               </p>
               <Image src={Arrow} alt='next button' className='object-cover w-[50] md:block hidden' />
             </div>
@@ -117,11 +118,11 @@ return() => clearInterval(interval)
                     height: '100%'
                 }}
                 >
-                  <h1 className="bg-white text-[rgba(26, 26, 26, 1)] px-3 py-2 rounded-lg  md:text-[24px] w-[160px] font-[700]">Exhibition</h1>
-              <h5 className="font-bold text-white mt-auto">Handcrafted Masterpieces</h5>
+                  <h1 className="butt">Exhibition</h1>
+              <h5 className="font-bold text-white mt-auto md:text-[22.89px]">Handcrafted Masterpieces</h5>
             <div className='flex justify-between'>
-            <p className="text-white text-sm mt-2">
-            Amet quis leo id faucibus auctor penatibus diam <br /> pellentesque. Convallis nisl et euismod sit lectus 
+            <p className="text-white md:text-[17px] mt-2">
+            Amet quis leo id faucibus auctor penatibus diam <br className='hidden md:block' /> pellentesque. Convallis nisl et euismod sit lectus 
               </p>
               <Image src={Arrow} alt='next button' className='object-cover md:w-[50] md:block hidden' />
             </div>
@@ -145,7 +146,7 @@ return() => clearInterval(interval)
  >
   
   <ul
-  className='grid grid-cols-2 gap-[30px] lg:flex justify-between items-center lg:gap-[90px] text-center flex-wrap'
+  className='grid grid-cols-2 gap-[30px] lg:flex justify-between items-center md:gap-[150px] text-center flex-wrap'
   >
         <li>
           <p className='number'>15</p>
