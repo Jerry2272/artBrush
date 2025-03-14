@@ -29,7 +29,7 @@ return() => clearInterval(interval)
 ;
   return (
     <>
-    < section className="hero md:p-[4em] pb-0 mb-0 p-8 md:mx-[30px] ">
+    < section className="hero md:p-[4em] pb-0 mb-0 p-8 md:mx-[16px] ">
       <div className="heroHeadline lg:flex justify-between items-center md:mb-[75px]">
         <h1>Journey Through Art. </h1>
         <p className='pt-10 lg:pt-0'>
@@ -71,9 +71,9 @@ return() => clearInterval(interval)
                     borderRadius: '12.11px',
                 }}
                 >
-                  <h1 className=" butt">Collection</h1>
-              <h5 className="font-bold text-white mt-auto md:text-[22.89px]">Handcrafted Masterpieces</h5>
-              <p className="text-white md:text-[17px] mt-2">
+                  <h1 className=" butt md:ml-[20px]">Collection</h1>
+              <h5 className="font-bold text-white mt-auto md:text-[22.89px] md:ml-[10px]">Handcrafted Masterpieces</h5>
+              <p className="text-white md:text-[17px] mt-2 md:ml-[10px]">
                 Amet quis leo id faucibus auctor penatibus diam pellentesque. <br /> Convallis nisl et
                 euismod sit lectus urna purus iaculis. Nibh facilisis <br /> auctor amet ac.
               </p>
@@ -94,13 +94,12 @@ return() => clearInterval(interval)
                     height: '100%'
                 }}
                 >
-                  <h1 className="butt">Gallery</h1>
-              <h5  className="font-bold text-white mt-auto md:text-[22.89px]">Handcrafted Masterpieces</h5>
-              <div className='flex justify-between'>
-            <p className="text-white md:text-[17px] mt-2">
+                  <h1 className="butt md:ml-[20px]" >Gallery</h1>
+              <div className='flex gap-[50px] justify-between'>
+            <p className="text-white md:text-[17px] mt-2 md:ml-[px]">
             Amet quis leo id faucibus auctor penatibus diam <br className='hidden md:block' /> pellentesque. Convallis nisl et euismod sit lectus 
               </p>
-              <Image src={Arrow} alt='next button' className='object-cover w-[50] md:block hidden' />
+              <Image src={Arrow} alt='next button' className='object-fill w-[%] md:block hidden' />
             </div>
               
                 </div>
@@ -118,13 +117,12 @@ return() => clearInterval(interval)
                     height: '100%'
                 }}
                 >
-                  <h1 className="butt">Exhibition</h1>
-              <h5 className="font-bold text-white mt-auto md:text-[22.89px]">Handcrafted Masterpieces</h5>
-            <div className='flex justify-between'>
-            <p className="text-white md:text-[17px] mt-2">
+                  <h1 className="butt md:ml-[20px]">Exhibition</h1>
+            <div className='flex gap-[50px] justify-between'>
+            <p className="text-white md:text-[17px] mt-2 md:ml-[20px]">
             Amet quis leo id faucibus auctor penatibus diam <br className='hidden md:block' /> pellentesque. Convallis nisl et euismod sit lectus 
               </p>
-              <Image src={Arrow} alt='next button' className='object-cover md:w-[50] md:block hidden' />
+              <Image src={Arrow} alt='next button' className='object-fill w-[%] md:block hidden' />
             </div>
                 </div>
         </div>
@@ -146,23 +144,37 @@ return() => clearInterval(interval)
  >
   
   <ul
-  className='grid grid-cols-2 gap-[30px] lg:flex justify-between items-center md:gap-[150px] text-center flex-wrap'
+  className='grid grid-cols-2 gap-[30px] lg:flex justify-between items-center md:gap-[180px] text-center flex-wrap'
   >
         <li>
           <p className='number'>15</p>
-          <p className='art'>Artists</p>
+          <span  className='art md:font-[400]' style={
+            {fontSize: '18px'}
+          }>Artists</span>
         </li>
         <li>
           <p className='number'>20</p>
-          <p className='art'>Art Exhibitions</p>
+          <p className='art' 
+          style={
+            {fontSize: '18px'}
+          }
+          >Art Exhibitions</p>
         </li>
         <li>
           <p className='number'>5000+</p>
-          <p className='art'>Art Pieces Sold</p>
+          <p className='art' 
+          style={
+            {fontSize: '18px'}
+          }
+          >Art Pieces Sold</p>
         </li>
         <li>
           <p className='number'>2000+</p>
-          <p className='art'>Arts Collections</p>
+          <p className='art' 
+          style={
+            {fontSize: '18px'}
+          }
+          >Arts Collections</p>
         </li>
       </ul>
  </div>

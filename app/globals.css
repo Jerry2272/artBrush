@@ -64,30 +64,35 @@ letter-spacing: 0%;
   text-align: left;
   }
   .collection .number{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 30px;
     line-height: 25.42px;
+    font-family: "Merriweather";
     letter-spacing: 0%;
 text-align: right;
 color: rgba(26, 26, 26, 1);
   }
   .collection .art{
-font-weight: 500;
-font-size: 18px;
+font-weight: 400;
+font-size: 14px;
 line-height: 32.74px;
 letter-spacing: 0%;
 text-align: right;
+font-family: "Merriweather";
 color: rgba(62, 62, 62, 1);
   }
   .butt{
-    width: 102;
-height: 30px;
+    width: 102px;
+ height: 30px;
 gap: 9.54px;
 border-radius: 7.63px;
-padding: 9.54px;
+padding: 12px;
 background-color: white;
-font-weight: 600;
-font-size: 15.89px;
+font-weight: 700;
+margin-bottom: auto;
+color: rgba(26, 26, 26, 1);
+font-size: 18px;
+padding: 9px;
 line-height: 28.77px;
 letter-spacing: 0%;
 display: flex;

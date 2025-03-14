@@ -91,10 +91,14 @@ export const FeaturedA = () => {
                                 borderRadius: '12.11px',
                             }}
                         >
-                            <h5 className="text-black font-semibold text-[32.31px] leading-[44.07px] sm:text-[24px] sm:leading-[34px]">
+                            <h5 className="text-black font-semibold text-[32.31px] leading-[44.07px] sm:text-[24px] sm:leading-[34px]"
+                               style={
+                                {fontWeight: 'bold'}
+                              }
+                            >
                                 Emmanuel Joe
                             </h5>
-                            <p className="font-nunito font-semibold md:text-[16px] leading-[22.03px] sm:text-[14px] sm:leading-[20px] py-2 text-[rgba(26, 26, 26, 1)]">
+                            <p className=" font-semibold md:text-[16px] leading-[22.03px] sm:text-[14px] sm:leading-[20px] py-2 text-[rgba(26, 26, 26, 1)]">
                                 A modern artist working in the style of technology
                             </p>
                           <div className='flex items-center justify-end' >
