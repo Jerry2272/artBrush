@@ -71,7 +71,7 @@ return() => clearInterval(interval)
                     borderRadius: '12.11px',
                 }}
                 >
-                  <h1 className=" butt md:ml-[20px]">Collection</h1>
+                  <h1 className=" butt md:ml-[20px]">Collection!</h1>
               <h5 className="font-bold text-white mt-auto md:text-[22.89px] md:ml-[10px]">Handcrafted Masterpieces</h5>
               <p className="text-white md:text-[17px] mt-2 md:ml-[10px]">
                 Amet quis leo id faucibus auctor penatibus diam pellentesque. <br /> Convallis nisl et
